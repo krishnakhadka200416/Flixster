@@ -76,7 +76,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
             Glide.with(context)
                     .load(movie.getPsoterPath())
                     .transform(new RoundedCorners(30))
-                    
+
                     .into(ivPoster);
         }
     }
